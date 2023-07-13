@@ -6,12 +6,12 @@ const reverseString = function(words) {
     {
         newString[n - (i + 1)] = words[i];
     }
-    newString = newString.toString();
+    newString = newString.join("");
     return newString;
     
 };
 
-reverseString("go");
+reverseString("");
 
 // Do not edit below this line
 module.exports = reverseString;
